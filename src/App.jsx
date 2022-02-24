@@ -9,19 +9,12 @@ function App() {
     <div className="App bg-dark">
       <Nav />
       <header className="App-header bg-dark">
-      <h2>
+      <h2 className="hero-title mb-3">
           Spoti<span>FIND</span>
         </h2>
         <img src={logo} className="App-logo" alt="logo" />
+          <p></p>Discover New Music Today
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Discover New Music Today
-        </a>
       </header>
       <Footer />
     </div>

@@ -5,14 +5,14 @@ function Nav() {
 
   return (
 
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/home">Navbar w/ text</a>
+    <a class="navbar-brand" href="/home">SpotiFIND</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/home">Home</a>
         </li>
@@ -23,9 +23,9 @@ function Nav() {
           <a class="nav-link" href="/discover">Discover</a>
         </li>
       </ul>
-      <span class="navbar-text">
+      {/* <span class="navbar-text">
         Navbar text with an inline element
-      </span>
+      </span> */}
     </div>
   </div>
 </nav>
