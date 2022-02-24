@@ -9,10 +9,11 @@ function App() {
     <div className="App bg-dark">
       <Nav />
       <header className="App-header bg-dark">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+      <h2>
           Spoti<span>FIND</span>
-        </p>
+        </h2>
+        <img src={logo} className="App-logo" alt="logo" />
+
         <a
           className="App-link"
           href="https://reactjs.org"
