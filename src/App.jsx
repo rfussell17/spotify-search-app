@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     
-    <div className="App">
+    <div className="App bg-dark">
       <Nav />
-      <header className="App-header">
+      <header className="App-header bg-dark">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Spoti<span>FIND</span>
@@ -21,6 +22,7 @@ function App() {
           Discover New Music Today
         </a>
       </header>
+      <Footer />
     </div>
   
   )
