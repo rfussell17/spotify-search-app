@@ -1,35 +1,28 @@
 // import Navbar from 'react-bootstrap/navbar';
 
 
-function Nav() {
-
+export default function Nav() {
   return (
-
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/home">SpotiFIND</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/search">Search</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/discover">Discover</a>
-        </li>
-      </ul>
-      {/* <span class="navbar-text">
-        Navbar text with an inline element
-      </span> */}
-    </div>
-  </div>
-</nav>
-	)
+			<nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+  			<div className="container-fluid">
+    			<a className="navbar-brand" href="/home">SpotiFIND</a>
+    			<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      			<span className="navbar-toggler-icon"></span>
+    			</button>
+    			<div className="collapse navbar-collapse" id="navbarText">
+      			<ul className="navbar-nav m-auto ml-5 mb-2 mb-lg-0">
+        			<li className="nav-item">
+          			<a className="nav-link active" aria-current="page" href="/home">Home</a>
+        			</li>
+        			<li className="nav-item">
+          			<a className="nav-link" href="/search">Search</a>
+        			</li>
+        			<li className="nav-item">
+          			<a className="nav-link" href="/discover">Discover</a>
+        			</li>
+      			</ul>
+    			</div>
+  			</div>
+			</nav>
+		)
 }
-
-export default Nav;
