@@ -1,4 +1,8 @@
 
+/* 
+Global Styles
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +15,13 @@ p {
   color: #fff;
 }
 
-h1, h2, h3, h4 {}
+.text-accent {
+  color: #1db954;
+}
+
+/* 
+Nav
+*/
 
 nav {
   display: flex;
@@ -29,7 +39,6 @@ nav {
   margin-right: auto;
   color: #fff;
   font-weight: 700;
-  /* font-size: 22px; */
 }
 
 .nav--title {
@@ -53,9 +62,8 @@ nav {
   margin-right: 3em;
 }
 
-
 /* 
-Main Styles
+MainContent
 */
 
 .main-content {
@@ -63,7 +71,6 @@ Main Styles
   height: 90vh;
   display: flex;
   flex-direction: col;
-  /* align-items: center; */
   justify-content: center;
   border-top: 1px solid #fff;
   background-image: url("./images/hero.jpeg");
@@ -76,8 +83,21 @@ Main Styles
 
 .main-content-title {
  margin-top: 15em;
- font-weight:normal;
+ text-align: left;
+
 }
+
+.main-content-title-bg {
+  /* background-color: #1db954;
+  color: #191414;
+  padding: 15px 30px;
+  border-radius: 20px; */
+
+}
+
+/* 
+Footer
+*/
 
 .footer {
   position: fixed;
@@ -86,4 +106,3 @@ Main Styles
   background-color: #191414;
   font-size: small;
 }
-
