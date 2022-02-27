@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Montserrat, "Helvetica Neue",sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  background-color: #191414;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+  color: #1db954;
+}
+
+.nav--link {
+  color: #fff;
+  margin: 7px;
+}
+
+
+/* 
+Main Styles
+*/
+
+.main-content {
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: col;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content-text {
+  max-width: 500px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #191414;
 }
+
