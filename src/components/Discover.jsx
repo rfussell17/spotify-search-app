@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 
 export default function Discover() {
   return (
-		<div className="discover-content bg-dark ">
-			<h1>Discover card goes here.</h1>
+		<div className="main-content-title">
+		<h2><span className='text-accent'>Discover </span> Goes here.</h2>
 		</div>
 	)
 }

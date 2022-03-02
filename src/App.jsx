@@ -14,6 +14,11 @@ function App() {
       <header className="App-header bg-dark">
         <Nav />
       </header>
+
+      <main>
+      <div className="main-content bg-dark ">
+				<div className="main-content-title-bg">
+   
       <Route path="/home">
         <MainContent />
       </Route>
@@ -23,8 +28,14 @@ function App() {
       <Route path="/search">
         <Search />
       </Route>
-      
+      </div>
+      </div>
+      </main>
+
+
+      <footer>
       <Footer />
+      </footer>
     </Router>
   
   )
