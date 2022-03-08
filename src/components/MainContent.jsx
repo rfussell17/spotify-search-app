@@ -8,5 +8,7 @@ export default function MainContent() {
 					<h2><span className='text-accent'>Discovering</span> new ones.</h2>
 				</div>
 
+				
+
 	)
 }
