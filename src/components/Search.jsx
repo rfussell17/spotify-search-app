@@ -4,7 +4,17 @@ export default function Search() {
   return (
 		<div className="container search-container">
 			<div className="main-content-title artist-title">
-			<h2><span className='text-accent'>Artist</span> Search</h2>
+				<h2><span className='text-accent'>Search</span> millions of artists and songs</h2>
+
+				<div className="row g-3 align-items-center">
+					<div className="col-auto">
+						<input type="text" id="input-form" className="form-control" aria-describedby="text search box" />
+					</div>
+					<div className="col-auto">
+						<span id="input-form-text" className="form-text text-light">
+						</span>
+					</div>
+				</div>
 			</div>
 
 			<div className="card mb-3 artist-card bg-dark">
