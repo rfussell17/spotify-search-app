@@ -113,7 +113,10 @@ Search
   max-width: 700px;
   max-height: 400px;
   align-self: center;
-
+  border-left: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-top: .5px;
 }
 
 .search-container {
@@ -121,6 +124,11 @@ Search
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+.card-title {
+  margin-bottom: 1em;
 }
 
 .artist-title {
