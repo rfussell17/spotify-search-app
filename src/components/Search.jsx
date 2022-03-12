@@ -7,7 +7,7 @@ export default function Search() {
 		{/* Title div */}
 
 			<div className="main-content-title artist-title">
-				<h2>Search <span className='text-accent'>millions</span> of artists and songs</h2>
+				<h2><span className='text-accent'>Search</span> millions of artists and songs</h2>
 			</div>
 
 		{/* Search input, Radio inputs */}
