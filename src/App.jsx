@@ -5,7 +5,9 @@ import Discover from './components/Discover';
 import Search from './components/Search';
 import './App.css';
 
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import axios from 'axios';
 
 function App() {
 	return (
