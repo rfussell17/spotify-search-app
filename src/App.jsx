@@ -10,14 +10,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from 'axios';
 
 function App() {
+
 	return (
+
+		
 
 		<Router className="App bg-dark">
 
 			<header className="App-header bg-dark">
 				<Nav />
 			</header>
-
 			<main>
 				<div className="main-content bg-dark ">
 					<div className="main-content-title-bg">
